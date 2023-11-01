@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+  background: rgb(213, 212, 212);
+  display: flex;
+  justify-content: center;
+}
+.content_func {
+  background: white;
+  border-color: black;
+  border-radius: 15%;
+  width: 400px;
+  margin: 20px 0 20px 0;
+}
+.content_result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.content_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 10px 10px 10px 10px;
+  color: aqua;
+  background: rgb(37, 37, 37);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn_c {
+  color: blue;
+  font-weight: 900;
+  background: rgb(37, 37, 37);
+}
+.btn_c:hover {
+  background: rgb(63, 0, 252);
+  color: rgb(0, 200, 231);
+}
+.btn_del:hover, .btn_igual:hover{
+  color: blue;
+  background: aqua;
+}
+.btn_mas:hover, .btn_-:hover, .btn_x:hover, .btn_entre:hover, .btn_raiz:hover, .btn_xx:hover, .btn_punto:hover{
+  color: rgb(255, 255, 255);
+  background: rgb(0, 183, 249);
+}
+.btn_0:hover, .btn_1:hover, .btn_2:hover, .btn_3:hover, .btn_4:hover, .btn_5:hover, .btn_6:hover, .btn_7:hover, .btn_8:hover, .btn_9:hover{
+    background: rgb(0, 2, 120);
+    color: white;
+}
